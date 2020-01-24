@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            prefHeight="300.0" prefWidth="300.0"
+            fx:controller="controladoras.ControladoraVentanaDosSceneDos">
+
+    <top>
+        <FlowPane>
+            <Button text="Ir escena 1" fx:id="botonUno"/>
+            <Button text="Ir escena 2" />
+        </FlowPane>
+
+    </top>
+
+    <center>
+        <Label text="Escena Dos" BorderPane.alignment="CENTER" />
+    </center>
+
+
+
+</BorderPane>
